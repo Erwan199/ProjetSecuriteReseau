@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("faceboot.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-origin: content-box;
+
+  #erreur{
+    display: none;color: red;}
+  #ok{
+    display: none; color: green;}
+    
+  .input{
+      padding-top: 1.2%;
+      margin-left: 53.55%;
+      
+      .email{
+        border-color: #1d2a5b;
+        border: 0px solid;
+        margin: 0;
+        width: 142px;
+        padding: 3px;
+        padding-bottom: 4px;
+      }
+      .motdepasse{
+        border-color: #1d2a5b;
+        padding-left: 25px;
+        border: 0px solid;
+        margin: 0;
+        width: 142px;
+        padding-bottom: 4px;
+        padding: 3px;
+        margin-left: 12px;
+      }
+      .bouton{
+        padding: 2px 6px;
+        width:76.4px ;
+        height:24px;
+        margin-left: 6.6%;
+        margin-top: 0.1%;
+        background-color: #4267b2;
+        border: 1px solid #29487d;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 12px;
+    font-weight: bold;
+        
+      }
+  }
+}
